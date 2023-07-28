@@ -1,0 +1,24 @@
+{
+    "name": "my-crypto-plugin/my-crypto-plugin",
+    "type": "wordpress-plugin",
+    "description": "A WordPress plugin for displaying cryptocurrency prices and data.",
+    "keywords": ["wordpress", "plugin", "cryptocurrency"],
+    "homepage": "https://www.pawelnersisian.com/my-crypto-plugin",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "pawel Nersisian",
+            "email": "pawelnersisian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "My_Crypto_Plugin\\": "includes/"
+        }
+    }
+}
